@@ -6,6 +6,7 @@ class WifiCoconut < Formula
   license "GPL-2.0"
 
   depends_on "cmake" => :build
+  depends_on "pkg-config" => :build
   depends_on "libusb" 
 
   def install
