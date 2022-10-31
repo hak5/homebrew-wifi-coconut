@@ -1,8 +1,8 @@
 class WifiCoconut < Formula
   desc "macOS userspace utilities for the Hak5 WiFi Coconut"
   homepage "https://hak5.org"
-  url "https://github.com/hak5/hak5-wifi-coconut/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "1c8620796dc09f60fc13c06722a1f35b6d67a3f313e83dce0329dd1c22b15f63"
+  url "https://github.com/hak5/hak5-wifi-coconut/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "0483faca4ccc5b56e3b4150c4d19bda64d592c6d4e0f51d4fd20e65896b35185"
   license "GPL-2.0"
 
   depends_on "cmake" => :build
